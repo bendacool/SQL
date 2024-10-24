@@ -30,7 +30,7 @@
 ## MS SQL SYNTAX
 
 ```
-CREATE TABLE tablo ( id INT IDENTITY(1,1) PRIMARY KEY,```
+CREATE TABLE tablo ( id INT IDENTITY(1,1) PRIMARY KEY,
 ```
 -- AUTO_INCREMENT yerine IDENTITY kullanılır. 
 ```
