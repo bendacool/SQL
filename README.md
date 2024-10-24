@@ -1,3 +1,5 @@
+# MS SQL
+
 ### Veri tabanı yönetim sistemleri avantajları 
 - Veri tekrarını engeller (data Redundancy)
 - Veri tutarlılığı (data consistency)
@@ -9,21 +11,21 @@
 - Vt sisteminin kurulumu ve bakımı klasik dosya sistemine göre daha maliyetli olabilir. 
 
 ## SEÇME (SELECTION) İŞLEMİ
-![[Pasted image 20241023175034.png]]
+<img src="./Pasted image 20241023175034.png" alt="example" />
 
-![[Pasted image 20241023180352.png]]
+<img src="./Pasted image 20241023180352.png" alt="example" />
 
-![[Pasted image 20241023180436.png]]
+<img src="./Pasted image 20241023180436.png" alt="example" />
 
-![[Pasted image 20241023180803.png]]
+<img src="./Pasted image 20241023180803.png" alt="example" />
 
-![[Pasted image 20241023180824.png]]
+<img src="./Pasted image 20241023180824.png" alt="example" />
 
-![[Pasted image 20241023181938.png]]
+<img src="./Pasted image 20241023181938.png" alt="example" />
 
-![[Pasted image 20241023181958.png]]
+<img src="./Pasted image 20241023181958.png" alt="example" />
 
-![[Pasted image 20241023182117.png]]
+<img src="./Pasted image 20241023182117.png" alt="example" />
 
 ## MS SQL SYNTAX
 
@@ -71,13 +73,13 @@ CONSTRAINT FK_araba FOREIGN KEY (araba) REFERENCES arabalar(id));
 - **MySQL**: `FOREIGN KEY` tanımı genellikle sütun tanımı içinde yapılır, ancak ayrı bir ifade ile de tanımlanabilir.
 - **MSSQL**: `FOREIGN KEY` tanımı için genellikle ayrı bir kısıtlama (constraint) tanımlaması kullanılır.
 
-![[Pasted image 20241023184105.png]]
+<img src="./Pasted image 20241023184105.png" alt="example" />
 
-![[Pasted image 20241023184051.png]]
+<img src="./Pasted image 20241023184051.png" alt="example" />
 
-![[Pasted image 20241023184032.png]]
+<img src="./Pasted image 20241023184032.png" alt="example" />
 
-![[Pasted image 20241023184017.png]]
+<img src="./Pasted image 20241023184017.png" alt="example" />
 
 __`DELETE FROM [TABLE] WHERE [STATEMENT]`__
 
@@ -87,7 +89,7 @@ __`UPDATE [TABLE] SET [NEW_DATA] WHERE [STATEMENTS]`__
 
 __``FLOOR(), CEILING(), ROUND()``__ : Bu fonksiyonlar yuvarlama fonksıyonlarıdır.
 
-![[Pasted image 20241023184815.png]]
+<img src="./Pasted image 20241023184815.png" alt="example" />
 
-![[Pasted image 20241023184917.png]]
+<img src="./Pasted image 20241023184917.png" alt="example" />
 
